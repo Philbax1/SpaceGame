@@ -977,3 +977,445 @@ System memory in use after: 151.9 MB.
 Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1772.
 Total: 10.604234 ms (FindLiveObjects: 1.033168 ms CreateObjectMapping: 0.243030 ms MarkObjects: 9.263231 ms  DeleteObjects: 0.057519 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000671 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.458 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1161 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.2 MB.
+System memory in use after: 152.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1776.
+Total: 2.701108 ms (FindLiveObjects: 0.268882 ms CreateObjectMapping: 0.060884 ms MarkObjects: 2.327191 ms  DeleteObjects: 0.042268 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2916.769048 seconds.
+  path: Assets/_Creepy_Cat
+  artifactKey: Guid(482bcafbefa2f40bdacb7722cea3921e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat using Guid(482bcafbefa2f40bdacb7722cea3921e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fafde7d1b38bff2c6ce435425b648bd4') in 0.004507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.758381 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free
+  artifactKey: Guid(7292dec1ffce6498b9c0b57fedbcc2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free using Guid(7292dec1ffce6498b9c0b57fedbcc2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e496533b6770c204a8b4385af74520a') in 0.006282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 501.853162 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs
+  artifactKey: Guid(2c5f6f8982c69457ab378b9fecfdf55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs using Guid(2c5f6f8982c69457ab378b9fecfdf55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76f8648188a3649056be832ff73c089') in 0.011367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.139318 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_01.prefab
+  artifactKey: Guid(e48c7d7ec43014ad882cf23f3bb48ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_01.prefab using Guid(e48c7d7ec43014ad882cf23f3bb48ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb813ea40510c9865098a1834e53304') in 1.982990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_04.prefab
+  artifactKey: Guid(11380b47be58c4fa78a82752a3f61daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_04.prefab using Guid(11380b47be58c4fa78a82752a3f61daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3941cbe7e84a3aaa93cbc0328edd7f') in 0.008527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000594 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_08.prefab
+  artifactKey: Guid(d50f5f5d5a171443fa76bc1f6fc90473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_08.prefab using Guid(d50f5f5d5a171443fa76bc1f6fc90473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022dfb6453c6332476860d8efaea0a28') in 0.015942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Logo.prefab
+  artifactKey: Guid(5aa01cae601f94746aa79edb7eb2380f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Logo.prefab using Guid(5aa01cae601f94746aa79edb7eb2380f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c115ee3a0c5c7983a0260722648cfe') in 0.899828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_03.prefab
+  artifactKey: Guid(c17698f595aa942cab4326f0ffaf25c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_03.prefab using Guid(c17698f595aa942cab4326f0ffaf25c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a2ba505d24768ece7fc651e3811309') in 0.008791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_02.prefab
+  artifactKey: Guid(f7efb0d9df2264096af57128df85dddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_02.prefab using Guid(f7efb0d9df2264096af57128df85dddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b9672a9a59d535bf76d488f1266e31') in 0.010854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001529 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_07.prefab
+  artifactKey: Guid(1625b0df15965450c86850dd6d345e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_07.prefab using Guid(1625b0df15965450c86850dd6d345e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c80d1aa29558a1b4c9b8d7165c6ee9') in 0.010101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_05.prefab
+  artifactKey: Guid(6746092d79f3e4fe1bfa983603238e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_05.prefab using Guid(6746092d79f3e4fe1bfa983603238e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73db08564cd830606d6bc8e24b5c8d66') in 0.009386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000616 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_06.prefab
+  artifactKey: Guid(876cb26c7c6ab42e49a9cace28b90b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_06.prefab using Guid(876cb26c7c6ab42e49a9cace28b90b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278507b4a70b4bf5581471671de25459') in 0.013154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.605435 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/Example_01
+  artifactKey: Guid(9d5c4e48cc0ee44be80b3e4f82bb69de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/Example_01 using Guid(9d5c4e48cc0ee44be80b3e4f82bb69de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df221ae014c591b0a3d0510607cc1cc') in 0.002247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.097447 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/Example_01/LightingData.asset
+  artifactKey: Guid(0b3b5526cb8dd4511813f2c8c4c5bec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/Example_01/LightingData.asset using Guid(0b3b5526cb8dd4511813f2c8c4c5bec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is inconsistent because 10 files out of 50 are missing.  Please use Generate Lighting to rebuild the lighting data.
+
+ -> (artifact id: 'fff830ffe433baa6bdba3de8981636e8') in 0.483764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/Example_01/ReflectionProbe-0.exr
+  artifactKey: Guid(1ded7af17884d4f559dd88cb3f938fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/Example_01/ReflectionProbe-0.exr using Guid(1ded7af17884d4f559dd88cb3f938fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32088a50cb43cca855ab3da6c79ff471') in 1.510243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.663095 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_08.mat
+  artifactKey: Guid(02fe6122f18ad42c98742a5c28931947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_08.mat using Guid(02fe6122f18ad42c98742a5c28931947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04bb3899ff490cb489565727836d42bf') in 0.893101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.458675 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_07.mat
+  artifactKey: Guid(6ae42f94864774b79bd2f0c91e849c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_07.mat using Guid(6ae42f94864774b79bd2f0c91e849c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86dbe282f188a3f2e0696ea11c14eb5') in 0.067247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.061679 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_06.mat
+  artifactKey: Guid(a520c59bd52a84761853f1676c85041d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_06.mat using Guid(a520c59bd52a84761853f1676c85041d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c7a21ebed2e8f25685075d4777e74d') in 0.047607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.601981 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_04.mat
+  artifactKey: Guid(9d7b7705dd2cc450c991a93f6474f081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_04.mat using Guid(9d7b7705dd2cc450c991a93f6474f081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e810c1716671224dbd092ae06a599c') in 0.048687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.925786 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_03.mat
+  artifactKey: Guid(75666bafa7f7243d7a69ef0cb5137fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_03.mat using Guid(75666bafa7f7243d7a69ef0cb5137fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b07ee2baaef25903f0fd3cd824fe18d') in 0.045946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 88.681897 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_02.mat
+  artifactKey: Guid(00be78a98231c449996461ca749d5808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_02.mat using Guid(00be78a98231c449996461ca749d5808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f273d18dd6b8e27eda5d4a32cbe79e81') in 0.082855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.450695 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_01.mat
+  artifactKey: Guid(acd51d388e03b43ee91f50f360703603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_01.mat using Guid(acd51d388e03b43ee91f50f360703603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d28c76f55708f2bca194e2512c9d5a') in 0.045000 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000821 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.522 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.9 MB.
+System memory in use after: 175.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1838.
+Total: 2.963475 ms (FindLiveObjects: 0.209949 ms CreateObjectMapping: 0.063115 ms MarkObjects: 2.667957 ms  DeleteObjects: 0.020316 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001732 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.761 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1161 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.1 MB.
+System memory in use after: 175.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1841.
+Total: 2.820983 ms (FindLiveObjects: 0.233529 ms CreateObjectMapping: 0.081019 ms MarkObjects: 2.486292 ms  DeleteObjects: 0.018411 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006005 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.755 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1161 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.4 MB.
+System memory in use after: 175.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1844.
+Total: 2.645150 ms (FindLiveObjects: 0.287341 ms CreateObjectMapping: 0.066335 ms MarkObjects: 2.269980 ms  DeleteObjects: 0.019143 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011394 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.332 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1161 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.7 MB.
+System memory in use after: 175.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1847.
+Total: 2.728392 ms (FindLiveObjects: 0.240657 ms CreateObjectMapping: 0.064420 ms MarkObjects: 2.386518 ms  DeleteObjects: 0.033627 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001420 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.468 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1161 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.0 MB.
+System memory in use after: 176.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1850.
+Total: 2.749680 ms (FindLiveObjects: 0.238085 ms CreateObjectMapping: 0.061938 ms MarkObjects: 2.428120 ms  DeleteObjects: 0.019653 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1854.230941 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials
+  artifactKey: Guid(d087af424f52948adbb83d5c7f4e4d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials using Guid(d087af424f52948adbb83d5c7f4e4d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf3449c43f13d2f8d90931cb00d12b2') in 0.005908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.079380 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_01_8x4-32.png
+  artifactKey: Guid(4ff5de4bdb9704c38a0cd21ac3191c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_01_8x4-32.png using Guid(4ff5de4bdb9704c38a0cd21ac3191c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f61e3a624cc9384bc1c71ee0da10284') in 1.447898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_05.mat
+  artifactKey: Guid(a551b9b2ea53445be86fd523d3a8aa60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_05.mat using Guid(a551b9b2ea53445be86fd523d3a8aa60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae42285c4ad0289d1b81572df074e553') in 0.102488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_06_8x6-48.png
+  artifactKey: Guid(424e16d271aa34549b27cc6f687d71e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_06_8x6-48.png using Guid(424e16d271aa34549b27cc6f687d71e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87c9220601669de5a3e6c5647759189') in 0.018093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009733 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_04_8x4-32.png
+  artifactKey: Guid(fd38e967a28d645b9a29968c3cc113cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_04_8x4-32.png using Guid(fd38e967a28d645b9a29968c3cc113cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814b78b09499bd8e255f118f82d3a805') in 0.032898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001623 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_03_8x4-32.png
+  artifactKey: Guid(611ab02a1b0c34eacac1a04aa2bdcddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_03_8x4-32.png using Guid(611ab02a1b0c34eacac1a04aa2bdcddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83abf9733f6113496c9201f0f3f89326') in 0.035980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_05_8x8-64.png
+  artifactKey: Guid(5031a0115db7440e7b931c0503af22f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_05_8x8-64.png using Guid(5031a0115db7440e7b931c0503af22f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c386e63e89a5f50dd874c31400ec2eff') in 0.018049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002123 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_08_8x4-32.png
+  artifactKey: Guid(ab1845f625a5f4d69a0d517d25674ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_08_8x4-32.png using Guid(ab1845f625a5f4d69a0d517d25674ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e205909071477db201dc44336a3d0e87') in 0.040812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Skybox.mat
+  artifactKey: Guid(d21694616239d4aec9013b5c3490bc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Skybox.mat using Guid(d21694616239d4aec9013b5c3490bc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdafca56cccf18dbe316f6d4dc7fd99e') in 0.217418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_07_8x8-64.png
+  artifactKey: Guid(411d5d12701d34c578b3282ddfab9b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_07_8x8-64.png using Guid(411d5d12701d34c578b3282ddfab9b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c15e9a8d7a1e356b707d6134a0f6798') in 0.017730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_02_8x6-48.png
+  artifactKey: Guid(a9d562fa15fa947ea834e675c0c490fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_02_8x6-48.png using Guid(a9d562fa15fa947ea834e675c0c490fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2197626a7e7a96e23461e0d881d3f379') in 0.045025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.794890 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/Example_02
+  artifactKey: Guid(1be634f39a0094c1eb572b50c6c6fb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/Example_02 using Guid(1be634f39a0094c1eb572b50c6c6fb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588c256ac68ea4fa6de3b1b075b1a6f0') in 0.003608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.106182 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/Example_02/Help For One Shoot.png
+  artifactKey: Guid(489caf7fdc6d643fa9bb7955efd6bfa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/Example_02/Help For One Shoot.png using Guid(489caf7fdc6d643fa9bb7955efd6bfa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0212262293180bd5742785b20238139') in 0.013251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/Example_02/Help For Particle Delay.png
+  artifactKey: Guid(6f82f2fd0752c4be0ba8fdf1ca6fce50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/Example_02/Help For Particle Delay.png using Guid(6f82f2fd0752c4be0ba8fdf1ca6fce50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7850e237c78836e5b5ab95d2fc77eaa4') in 0.009637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.873256 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/Example_02/_Prefabs
+  artifactKey: Guid(517808d42c2b2492994ada83ea24315d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/Example_02/_Prefabs using Guid(517808d42c2b2492994ada83ea24315d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffcf38675b1bf3abddda52709a5652b3') in 0.003487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.093951 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/Example_02/_Prefabs/Emitter_For_Instance_OneShoot_A.prefab
+  artifactKey: Guid(64db0404c1781409d9c819adeaf45772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/Example_02/_Prefabs/Emitter_For_Instance_OneShoot_A.prefab using Guid(64db0404c1781409d9c819adeaf45772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3034e5ade6e45503d8fc858a9afa013') in 0.022038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/Example_02/_Prefabs/Emitter_For_Instance_OneShoot_B.prefab
+  artifactKey: Guid(071da6eee8fda477791955dbe7e2b171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/Example_02/_Prefabs/Emitter_For_Instance_OneShoot_B.prefab using Guid(071da6eee8fda477791955dbe7e2b171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30692e9f3c333ea424540bda6cb65e10') in 0.004641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.945158 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom
+  artifactKey: Guid(943049b8cfbcb403c85ccede81301fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom using Guid(943049b8cfbcb403c85ccede81301fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9b303670a40fad135f9962d5c66a07') in 0.004574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.410096 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Materials
+  artifactKey: Guid(1ce4da24aaa8d4096a8f62908e7d611f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Materials using Guid(1ce4da24aaa8d4096a8f62908e7d611f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161b772d9ea5afdfd512daede007d979') in 0.003366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.083193 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Materials/_CreepyLogo.mat
+  artifactKey: Guid(57e7b8cdc963844a18e8a7835bd1eeaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Materials/_CreepyLogo.mat using Guid(57e7b8cdc963844a18e8a7835bd1eeaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf51c406ebc0b01f9aac0ae59d03303') in 0.015889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000726 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Materials/Neon_01.mat
+  artifactKey: Guid(884db82142bfd462c9ba899be301fabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Materials/Neon_01.mat using Guid(884db82142bfd462c9ba899be301fabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344f3822bf1dcf2d8a897c6b42add01c') in 0.114374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Materials/DarkGrey_01.mat
+  artifactKey: Guid(f8e8bfc8eeb914158a079e7c2498dddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Materials/DarkGrey_01.mat using Guid(f8e8bfc8eeb914158a079e7c2498dddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f43594a9439f71523b1538404925a8d') in 0.424629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Materials/Transparent.mat
+  artifactKey: Guid(5d63bb5d887f346ee89a028ce1ee5943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Materials/Transparent.mat using Guid(5d63bb5d887f346ee89a028ce1ee5943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e5c44d33ebb3f4565c98efd075723c') in 0.411424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Materials/Diffuse_01.mat
+  artifactKey: Guid(7794ba05d4edf4e6793ed0af3e270361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Materials/Diffuse_01.mat using Guid(7794ba05d4edf4e6793ed0af3e270361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c096235db0231442d5f5e2ec7fda2fa') in 0.446199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.369548 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_FAQ - Informations
+  artifactKey: Guid(9d0d32b61eba740e98b090d2feb3dd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_FAQ - Informations using Guid(9d0d32b61eba740e98b090d2feb3dd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e383ad4b8d601586bde48dfbeb2b671c') in 0.003460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.076163 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_FAQ - Informations/Particle For One Shoot.png
+  artifactKey: Guid(f7b6623e79d4f41aba868e78ed5256ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_FAQ - Informations/Particle For One Shoot.png using Guid(f7b6623e79d4f41aba868e78ed5256ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0341cadc7bad478e13a2d58126f3e4a2') in 0.019562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000659 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_FAQ - Informations/Particle Start Delay Remove.png
+  artifactKey: Guid(99ccc10f8273447ac997bb763aa00ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_FAQ - Informations/Particle Start Delay Remove.png using Guid(99ccc10f8273447ac997bb763aa00ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee66f163d7faf2b0c23438372d36951d') in 0.013031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000559 seconds.
+  path: Assets/_Creepy_Cat/3D Games Effects Pack Free/_FAQ - Informations/Particle Loop Remove.png
+  artifactKey: Guid(a1d5201b719c74ccaa8afd7f96ed5380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Creepy_Cat/3D Games Effects Pack Free/_FAQ - Informations/Particle Loop Remove.png using Guid(a1d5201b719c74ccaa8afd7f96ed5380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52fd683f21ab9d87251f23c7e454d34b') in 0.035978 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001192 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.224 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1160 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.4 MB.
+System memory in use after: 186.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2042.
+Total: 5.249949 ms (FindLiveObjects: 0.216123 ms CreateObjectMapping: 0.075012 ms MarkObjects: 4.932371 ms  DeleteObjects: 0.024786 ms)
+

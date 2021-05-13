@@ -7,6 +7,7 @@ public class gunScript : MonoBehaviour
     public float range = 10000f;
 
     public Camera fpsCam;
+    public ParticleSystem muzzle;
 
     // Update is called once per frame
     void Update()
@@ -20,6 +21,8 @@ public class gunScript : MonoBehaviour
 
     public void Shoot()
     {
+        muzzle.Play(); //plays muzzle animation
+
         RaycastHit hit;
 
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
