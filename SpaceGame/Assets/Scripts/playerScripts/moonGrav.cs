@@ -7,7 +7,7 @@ public class moonGrav : MonoBehaviour
 {
     private Transform player;
     private float dist;
-    private float gravTriggerZone = 20000f;   //20000f;
+    private float gravTriggerZone = 40000f;   //20000f;
     private float deathZone = 5000f;    //Distance from center to surfaces
     private float gravStrength = 0.04f; //0.1
     private float gravSpeed;

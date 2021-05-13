@@ -8,7 +8,7 @@ public class enemy_TrackingScript : MonoBehaviour
 {
     private Transform player;
     private float dist;
-    private float moveSpeed = 1000f, followRange = 10000f, attackRange = 100f, attackingMoveSpeed = 80f;
+    private float moveSpeed = 8000f, followRange = 100000f, attackRange = 100f, attackingMoveSpeed = 80f;
 
     // Start is called before the first frame update
     void Start()
@@ -22,26 +22,26 @@ public class enemy_TrackingScript : MonoBehaviour
         dist = Vector3.Distance(player.position, transform.position);
         //Debug.Log("Distance is : " + dist);
 
-        if (dist <= followRange && dist > attackRange) followState();
-        if (dist <= attackRange) attackState();
+        if (dist <= followRange) followState();
+        //if (dist <= attackRange) attackState();
         else patrollingState();
     }
 
     private void followState()
     {
         transform.LookAt(player);
-        GetComponent<Rigidbody>().AddForce(transform.forward * moveSpeed);
+        GetComponent<Rigidbody>().AddForce(transform.forward * moveSpeed * Time.deltaTime);
     }
 
     private void attackState()
     {
         transform.LookAt(player);
-        GetComponent<Rigidbody>().AddForce(transform.forward * attackingMoveSpeed);
+        GetComponent<Rigidbody>().AddForce(transform.forward * attackingMoveSpeed * Time.deltaTime);
     }
 
     private void patrollingState()
     {
-        GetComponent<Rigidbody>().AddForce(transform.forward * 0);
+        GetComponent<Rigidbody>().AddForce(transform.forward * 0 * Time.deltaTime);
     }
 }
 

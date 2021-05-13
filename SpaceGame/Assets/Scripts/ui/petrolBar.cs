@@ -10,18 +10,18 @@ public class petrolBar : MonoBehaviour
     public Text text;
 
 
-    public void SetMaxPetrol(int maxPetrol)
+    public void SetMaxEnergy(int maxEnergy)
     {
-        slider.maxValue = maxPetrol;
-        slider.value = maxPetrol;
+        slider.maxValue = maxEnergy;
+        slider.value = maxEnergy;
 
-        text.text = maxPetrol.ToString();
+        text.text = maxEnergy.ToString();
     }
 
-    public void SetPetrol(int petrol)
+    public void SetEnergy(int energy)
     {
-        slider.value = petrol;
+        slider.value = energy;
 
-        text.text = petrol.ToString();
+        text.text = energy.ToString();
     }
 }

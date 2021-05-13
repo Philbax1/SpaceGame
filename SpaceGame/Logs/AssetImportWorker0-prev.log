@@ -8,418 +8,328 @@ Using pre-set license
 -name
 AssetImportWorker0
 -projectPath
-/Users/phil/Documents/Polytech/PolytechWork/2021Sem1/GameDevClass/SpaceGame
+/Users/phil/Documents/Polytech/PolytechWork/2021Sem1/SpaceGame/SpaceGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59151
-Successfully changed project path to: /Users/phil/Documents/Polytech/PolytechWork/2021Sem1/GameDevClass/SpaceGame
-/Users/phil/Documents/Polytech/PolytechWork/2021Sem1/GameDevClass/SpaceGame
+49690
+Successfully changed project path to: /Users/phil/Documents/Polytech/PolytechWork/2021Sem1/SpaceGame/SpaceGame
+/Users/phil/Documents/Polytech/PolytechWork/2021Sem1/SpaceGame/SpaceGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 237.15 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 49.73 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.3f1 (4bef613afd59)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/phil/Documents/Polytech/PolytechWork/2021Sem1/GameDevClass/SpaceGame/Assets
+[Subsystems] Discovering subsystems at path /Users/phil/Documents/Polytech/PolytechWork/2021Sem1/SpaceGame/SpaceGame/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-2021-05-12 15:12:28.022 Unity[5249:604319] Color LCD preferred device: Intel Iris Graphics (low power)
-2021-05-12 15:12:28.022 Unity[5249:604319] Metal devices available: 1
-2021-05-12 15:12:28.022 Unity[5249:604319] 0: Intel Iris Graphics (low power)
-2021-05-12 15:12:28.023 Unity[5249:604319] Using device Intel Iris Graphics (low power)
+2021-05-13 10:40:12.884 Unity[840:13001] Color LCD preferred device: Intel Iris Graphics (low power)
+2021-05-13 10:40:12.885 Unity[840:13001] Metal devices available: 1
+2021-05-13 10:40:12.885 Unity[840:13001] 0: Intel Iris Graphics (low power)
+2021-05-13 10:40:12.885 Unity[840:13001] Using device Intel Iris Graphics (low power)
 Initializing Metal device caps: Intel Iris Graphics
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56249
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002787 seconds.
+Registered in 0.002119 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 119.19 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 49.30 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 13.877 seconds
+- Completed reload, in  8.758 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002143 seconds.
+Registered in 0.002062 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.895 seconds
+- Completed reload, in  1.784 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1164 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.8 MB.
-System memory in use after: 133.8 MB.
+System memory in use before: 133.9 MB.
+System memory in use after: 134.0 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1639.
-Total: 3.764536 ms (FindLiveObjects: 0.221527 ms CreateObjectMapping: 0.075602 ms MarkObjects: 3.299008 ms  DeleteObjects: 0.165840 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/models/asteroid/textures/asteroid1Material.mat
-  artifactKey: Guid(603fdb80831c146a08e7c0381f3bef4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/asteroid/textures/asteroid1Material.mat using Guid(603fdb80831c146a08e7c0381f3bef4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de013f3e1a79306b928e4534b548e37f') in 3.965287 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 124.775696 seconds.
-  path: Assets/models/SpaceFighter/Materials
-  artifactKey: Guid(4db8702993a7ccd4593757bb8e7def05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/SpaceFighter/Materials using Guid(4db8702993a7ccd4593757bb8e7def05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a797907edb8a054f5bb0316a111875') in 0.003630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.073516 seconds.
-  path: Assets/models/SpaceFighter/Materials/Glass.mat
-  artifactKey: Guid(6edbf735fdad0914b8f94b848c3e47e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/SpaceFighter/Materials/Glass.mat using Guid(6edbf735fdad0914b8f94b848c3e47e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8036e8fdaea8cda0f74e69d4ff50f7') in 0.052640 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/models/SpaceFighter/Materials/Helium3.mat
-  artifactKey: Guid(e279c30a1e087ea4d86c41786b508b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/SpaceFighter/Materials/Helium3.mat using Guid(e279c30a1e087ea4d86c41786b508b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c531680f7c89a5cf314be6215e89f9') in 0.151851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000832 seconds.
-  path: Assets/models/SpaceFighter/Materials/SpacefighterMain.mat
-  artifactKey: Guid(aa0a86833ffb9434084a0dcaf9caab4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/SpaceFighter/Materials/SpacefighterMain.mat using Guid(aa0a86833ffb9434084a0dcaf9caab4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6f7c069c5c5fc899445ad5decd80d9') in 0.099630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001020 seconds.
-  path: Assets/models/SpaceFighter/Materials/SpaceFighterWings.mat
-  artifactKey: Guid(4aeb4f9daf524ac4ead73a080ff83792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/SpaceFighter/Materials/SpaceFighterWings.mat using Guid(4aeb4f9daf524ac4ead73a080ff83792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32318801920cc3f904d9d22b9e94d08') in 0.101875 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/models/SpaceFighter/Materials/rocket_launcher.mat
-  artifactKey: Guid(9dc74f0ca5de04c43a429ede8bd29a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/SpaceFighter/Materials/rocket_launcher.mat using Guid(9dc74f0ca5de04c43a429ede8bd29a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e0427e4edf6c8d576ca269eafec966') in 0.073232 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/models/SpaceFighter/Materials/Rocket.mat
-  artifactKey: Guid(66f483a7e048c534f88fabe727753605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/SpaceFighter/Materials/Rocket.mat using Guid(66f483a7e048c534f88fabe727753605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8952788460ead3b3eaafdad20cde39f5') in 0.081196 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.226121 seconds.
-  path: Assets/models/SpaceFighter/Meshes/helium3.fbx
-  artifactKey: Guid(90aeaa8a39076a8479f8d3366415a53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/SpaceFighter/Meshes/helium3.fbx using Guid(90aeaa8a39076a8479f8d3366415a53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742a3679d46050bb32911f9eb98c081e') in 0.688337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.600751 seconds.
-  path: Assets/models/SF_Fighter
-  artifactKey: Guid(5401b9efa04490049820fdc70e9fec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/SF_Fighter using Guid(5401b9efa04490049820fdc70e9fec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89eff6c47aedfdc592cbd9815dd39c8') in 0.003567 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.097439 seconds.
-  path: Assets/models/SF_Fighter/SF_Free-Fighter.FBX
-  artifactKey: Guid(a2b9f16335cfda74081507453d1466ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/SF_Fighter/SF_Free-Fighter.FBX using Guid(a2b9f16335cfda74081507453d1466ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802d061cec478e9d26503cb3c473a5f1') in 1.020694 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/models/SF_Fighter/SF_Free-Fighter.prefab
-  artifactKey: Guid(cdbec52167efb6a48b63cebb3284c246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/SF_Fighter/SF_Free-Fighter.prefab using Guid(cdbec52167efb6a48b63cebb3284c246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c60d439869d5f1d24bdeab2c1d9c55e') in 0.325428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 96.802011 seconds.
-  path: Assets/Scripts/playerScripts/shipPetrol.cs
-  artifactKey: Guid(b5dbdc1eb2ae146999e7f911f7537b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/playerScripts/shipPetrol.cs using Guid(b5dbdc1eb2ae146999e7f911f7537b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3412b3916a899f02079c1bd3d030e0f0') in 0.684321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.690883 seconds.
-  path: Assets/Scripts/playerScripts/moonGrav.cs
-  artifactKey: Guid(19780f7e21df843b79eef9c288d36985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/playerScripts/moonGrav.cs using Guid(19780f7e21df843b79eef9c288d36985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1db1559ce02303f5e62cb9053f3de4') in 0.007303 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001858 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.711 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1158 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 160.4 MB.
-System memory in use after: 160.5 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1687.
-Total: 3.503379 ms (FindLiveObjects: 0.200267 ms CreateObjectMapping: 0.054903 ms MarkObjects: 3.210137 ms  DeleteObjects: 0.026800 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1640.
+Total: 3.452459 ms (FindLiveObjects: 0.179988 ms CreateObjectMapping: 0.076257 ms MarkObjects: 3.015470 ms  DeleteObjects: 0.179098 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 356.615042 seconds.
-  path: Assets/models/Sci Fi Modular Pack/Models/ProfileWindow.fbx
-  artifactKey: Guid(234c5d0c3948549bd9657592e4d58471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Sci Fi Modular Pack/Models/ProfileWindow.fbx using Guid(234c5d0c3948549bd9657592e4d58471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b78300ded57e66b2e8b357aa69e76b0') in 0.299875 seconds 
+  path: Assets/models/F3_Corvette/Meshes
+  artifactKey: Guid(dc9582259dc4bfe49a69d2f85886d525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/F3_Corvette/Meshes using Guid(dc9582259dc4bfe49a69d2f85886d525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd185e3b6d024b2bdcc278a78aeb86a24') in 0.005629 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/models/Sci Fi Modular Pack/Materials/IntersectionSideFloor.mat
-  artifactKey: Guid(73f473a5472e84ba7b92b1cb65cde658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Sci Fi Modular Pack/Materials/IntersectionSideFloor.mat using Guid(73f473a5472e84ba7b92b1cb65cde658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e154fe832a6bc0d27c069caed3fb173') in 0.691759 seconds 
+  Time since last request: 0.000454 seconds.
+  path: Assets/models/F3_Corvette/Prefabs
+  artifactKey: Guid(0b8c335ad81e9ed4391adfd78e3801d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/F3_Corvette/Prefabs using Guid(0b8c335ad81e9ed4391adfd78e3801d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd7ad473fe664e63aab84e5792b75c1') in 0.001324 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000974 seconds.
-  path: Assets/models/Cobble Games/Spaceship/hdri.mat
-  artifactKey: Guid(a16c3253ae2cf1946924a631be02193f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Cobble Games/Spaceship/hdri.mat using Guid(a16c3253ae2cf1946924a631be02193f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb9ec1d660b5cd2239194d5eb52f214') in 0.104681 seconds 
+  Time since last request: 0.000403 seconds.
+  path: Assets/models/F3_Corvette/Meshes/F3_Yellow.FBX
+  artifactKey: Guid(cc3d5a73d5e4cf2498bffd1c3c5ad691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/F3_Corvette/Meshes/F3_Yellow.FBX using Guid(cc3d5a73d5e4cf2498bffd1c3c5ad691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160e0961b3eea0b8cf2c6edbcfc342dc') in 2.234545 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.453073 seconds.
-  path: Assets/models/Sci Fi Modular Pack/Materials/Light1.mat
-  artifactKey: Guid(e53a571c4435748ca83a349171212065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Sci Fi Modular Pack/Materials/Light1.mat using Guid(e53a571c4435748ca83a349171212065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fca987de5e7e93d9b8e60482dd4a81e') in 0.134771 seconds 
+  Time since last request: 0.000343 seconds.
+  path: Assets/models/F3_Corvette/Textures/F3_Yellow.tif
+  artifactKey: Guid(a092f2b04513a644aa22f7940351bf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/F3_Corvette/Textures/F3_Yellow.tif using Guid(a092f2b04513a644aa22f7940351bf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be52bd877efecb08adabea7b882062f3') in 1.591522 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000434 seconds.
-  path: Assets/models/Sci Fi Modular Pack/Materials/Light2.mat
-  artifactKey: Guid(08cdeb4852bec441bb600fa711ff2a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Sci Fi Modular Pack/Materials/Light2.mat using Guid(08cdeb4852bec441bb600fa711ff2a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18ee37cd56e03014c7abf3362a1be86') in 0.124982 seconds 
+  Time since last request: 0.000316 seconds.
+  path: Assets/models/F3_Corvette/Textures/F3_Red.tif
+  artifactKey: Guid(0281472901f2b3f42be55669e274d164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/F3_Corvette/Textures/F3_Red.tif using Guid(0281472901f2b3f42be55669e274d164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4a1cbc29860d0111c4f15646da1b07') in 0.018898 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/models/Sci Fi Modular Pack/Materials/Light1_Steel.mat
-  artifactKey: Guid(ef2fe98e430e84ec0ac69deed6fbe49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Sci Fi Modular Pack/Materials/Light1_Steel.mat using Guid(ef2fe98e430e84ec0ac69deed6fbe49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146876f97c40bd93d35632c9c569848e') in 0.079145 seconds 
+  Time since last request: 0.001654 seconds.
+  path: Assets/models/F3_Corvette/Textures/F3_roughness.tif
+  artifactKey: Guid(e7c748002a5bf3b4bbca642f1617c325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/F3_Corvette/Textures/F3_roughness.tif using Guid(e7c748002a5bf3b4bbca642f1617c325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c409b91359cc424a3e2185c053e01d3') in 0.054253 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.941725 seconds.
-  path: Assets/models/Sci Fi Modular Pack/Models/SideFloor2.fbx
-  artifactKey: Guid(256ae929090684381b3f3ef6abc90a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Sci Fi Modular Pack/Models/SideFloor2.fbx using Guid(256ae929090684381b3f3ef6abc90a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b954b66239ba11c8b04d2ed2610dcd6') in 0.066293 seconds 
+  Time since last request: 0.000543 seconds.
+  path: Assets/models/F3_Corvette/Meshes/F3_Grey.FBX
+  artifactKey: Guid(7b5c9227d177ec248a8349ac8e0965be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/F3_Corvette/Meshes/F3_Grey.FBX using Guid(7b5c9227d177ec248a8349ac8e0965be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1746b34b53c119bad154e4117e950ef6') in 0.105589 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/models/Sci Fi Modular Pack/Models/Wall2.fbx
-  artifactKey: Guid(8e0f9c1e33e964718848c39708aa5720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Sci Fi Modular Pack/Models/Wall2.fbx using Guid(8e0f9c1e33e964718848c39708aa5720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f32fcccc06eccbec85e7cdc369adf2') in 0.101216 seconds 
+  Time since last request: 0.000743 seconds.
+  path: Assets/models/F3_Corvette/Textures/F3_Grey.tif
+  artifactKey: Guid(4c79293b48effba48b7adc038fe38f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/F3_Corvette/Textures/F3_Grey.tif using Guid(4c79293b48effba48b7adc038fe38f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a81a8ec50611d492fde25f81c3e8a09') in 0.035347 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002860 seconds.
-  path: Assets/models/Sci Fi Modular Pack/Models/Light1.fbx
-  artifactKey: Guid(5c10f386ebfed4a07bf2755c59c4ace9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Sci Fi Modular Pack/Models/Light1.fbx using Guid(5c10f386ebfed4a07bf2755c59c4ace9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dec04e2fe3342edff9e672a29200901') in 0.072400 seconds 
+  Time since last request: 0.006324 seconds.
+  path: Assets/models/F3_Corvette/Meshes/F3_Red.FBX
+  artifactKey: Guid(8220d65260758dc4e8e264a8b326363f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/F3_Corvette/Meshes/F3_Red.FBX using Guid(8220d65260758dc4e8e264a8b326363f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a209deec4728141773a0ea9dfe531207') in 0.074488 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003042 seconds.
-  path: Assets/models/Sci Fi Modular Pack/Models/Floor4.fbx
-  artifactKey: Guid(bb01b9278a1b047a796cd1810d13fa84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Sci Fi Modular Pack/Models/Floor4.fbx using Guid(bb01b9278a1b047a796cd1810d13fa84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947b24314b69375bf9e5a0879bad4d77') in 0.087355 seconds 
+  Time since last request: 0.001532 seconds.
+  path: Assets/models/F3_Corvette/Textures/F3_metallic.tif
+  artifactKey: Guid(9727a61ea56c9a844b9eed9b30317414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/F3_Corvette/Textures/F3_metallic.tif using Guid(9727a61ea56c9a844b9eed9b30317414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a39ea73e94f6486976a7ca0d921cf60') in 0.017128 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.495122 seconds.
-  path: Assets/models/Sci Fi Modular Pack/Models/Door.fbx
-  artifactKey: Guid(52ffe8b9376da4ad7a8bde419cebdb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Sci Fi Modular Pack/Models/Door.fbx using Guid(52ffe8b9376da4ad7a8bde419cebdb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df53f13b12f34a1fc2f421d107a87c0b') in 0.043915 seconds 
+  Time since last request: 0.000373 seconds.
+  path: Assets/models/F3_Corvette/Textures
+  artifactKey: Guid(c12155d4d833e9c40bea0f8d196d7d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/F3_Corvette/Textures using Guid(c12155d4d833e9c40bea0f8d196d7d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9605812038f60a35a77f2c5fe430ee5f') in 0.004033 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000457 seconds.
-  path: Assets/models/Sci Fi Modular Pack/Materials/Floor2.mat
-  artifactKey: Guid(a1ecde157c64844cd91342234e9e354f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Sci Fi Modular Pack/Materials/Floor2.mat using Guid(a1ecde157c64844cd91342234e9e354f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e572d44220a787fb7eca5c3487e36e5b') in 0.048777 seconds 
+  Time since last request: 0.000348 seconds.
+  path: Assets/models/F3_Corvette/Textures/F3_Green.tif
+  artifactKey: Guid(b3b46c34242010445b60790dee02de1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/F3_Corvette/Textures/F3_Green.tif using Guid(b3b46c34242010445b60790dee02de1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861ba43358c7e44399da91572ffd436a') in 0.024802 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000757 seconds.
-  path: Assets/models/F3_Corvette/Meshes/Materials/F3_Grey.mat
-  artifactKey: Guid(f8d15df95b7ef5a4ead9604b3e5b6597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/F3_Corvette/Meshes/Materials/F3_Grey.mat using Guid(f8d15df95b7ef5a4ead9604b3e5b6597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9acfc4f154e423e27e88aaa8bc72dde') in 0.927605 seconds 
+  Time since last request: 0.000414 seconds.
+  path: Assets/models/F3_Corvette/Prefabs/F3_Green Variant.prefab
+  artifactKey: Guid(1b9c9bd520ad54747a98d7222069677a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/F3_Corvette/Prefabs/F3_Green Variant.prefab using Guid(1b9c9bd520ad54747a98d7222069677a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec925ac71c534bd4870005b85580a1e') in 0.737015 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/models/Sci Fi Modular Pack/Materials/Box1.mat
-  artifactKey: Guid(de6e923f7a4274cd09bd1f186ffbccae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Sci Fi Modular Pack/Materials/Box1.mat using Guid(de6e923f7a4274cd09bd1f186ffbccae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa83afb132cbb58557edf035d5758372') in 0.437254 seconds 
+  Time since last request: 0.000481 seconds.
+  path: Assets/models/F3_Corvette/Meshes/F3_Green.FBX
+  artifactKey: Guid(24d54da20b07b7d4bb94aa91d81e854b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/F3_Corvette/Meshes/F3_Green.FBX using Guid(24d54da20b07b7d4bb94aa91d81e854b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04dc10d3d9f1479a8fdd4be81a8f195') in 0.088036 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000563 seconds.
-  path: Assets/models/asteroid-for-free/textures/aesteroid2Materia.mat
-  artifactKey: Guid(7552a3548194d4aaf93120ad830cddf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/asteroid-for-free/textures/aesteroid2Materia.mat using Guid(7552a3548194d4aaf93120ad830cddf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b793894f9c876c7310b89f373252789e') in 0.149013 seconds 
+  Time since last request: 0.000518 seconds.
+  path: Assets/models/F3_Corvette/Textures/F3_AO.tif
+  artifactKey: Guid(1c2d94856a0846d46810faf0c4b38c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/F3_Corvette/Textures/F3_AO.tif using Guid(1c2d94856a0846d46810faf0c4b38c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f541dc884cebd44ec065a46f40de19b5') in 0.024597 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000466 seconds.
-  path: Assets/models/Sci Fi Modular Pack/Materials/Floor1.mat
-  artifactKey: Guid(1f2175db829e2437a846b7256f968ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Sci Fi Modular Pack/Materials/Floor1.mat using Guid(1f2175db829e2437a846b7256f968ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b757d82e3f0c7a77cfd281570a2f4967') in 0.078162 seconds 
+  Time since last request: 0.011502 seconds.
+  path: Assets/models/F3_Corvette/Textures/F3_glow.tif
+  artifactKey: Guid(138840311186e0945877b44cd56ef422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/F3_Corvette/Textures/F3_glow.tif using Guid(138840311186e0945877b44cd56ef422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a3dc4087f6d8ba959fd08fcd3cf555') in 0.033219 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000710 seconds.
-  path: Assets/models/Sci Fi Modular Pack/Materials/Floor4.mat
-  artifactKey: Guid(94f56123865054b62a3c385450ada42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Sci Fi Modular Pack/Materials/Floor4.mat using Guid(94f56123865054b62a3c385450ada42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41dd020df2fa363b2821fa015b91e8c7') in 0.082989 seconds 
+  Time since last request: 0.002352 seconds.
+  path: Assets/models/F3_Corvette/Prefabs/F3_Red Variant.prefab
+  artifactKey: Guid(481351381d17b144594f0cceef6ef608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/F3_Corvette/Prefabs/F3_Red Variant.prefab using Guid(481351381d17b144594f0cceef6ef608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb996075c6b525204cce95498e14039d') in 0.081011 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001683 seconds.
-  path: Assets/models/F3_Corvette/Meshes/Materials/F3_Green.mat
-  artifactKey: Guid(aa1e936803633064facac17fa9620e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/F3_Corvette/Meshes/Materials/F3_Green.mat using Guid(aa1e936803633064facac17fa9620e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2a96e83c92035663f94e9be76eeb11') in 0.076237 seconds 
+  Time since last request: 0.000489 seconds.
+  path: Assets/models/F3_Corvette/Prefabs/F3_Grey Variant.prefab
+  artifactKey: Guid(f00c8df389af47046baea2d14b531550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/F3_Corvette/Prefabs/F3_Grey Variant.prefab using Guid(f00c8df389af47046baea2d14b531550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee929602138e1e90e126ea1a18a7458') in 0.097573 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001389 seconds.
-  path: Assets/models/F3_Corvette/Meshes/Materials/F3_Red.mat
-  artifactKey: Guid(21085cfc4f7ff8a4291ed42a85f27537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/F3_Corvette/Meshes/Materials/F3_Red.mat using Guid(21085cfc4f7ff8a4291ed42a85f27537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd0f54984e5ab9a50c82694ff00621d') in 0.081550 seconds 
+  Time since last request: 0.000372 seconds.
+  path: Assets/models/F3_Corvette/Textures/F3_normal.tif
+  artifactKey: Guid(f6c7a92433d238a47a9cf48355a071ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/F3_Corvette/Textures/F3_normal.tif using Guid(f6c7a92433d238a47a9cf48355a071ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6e22b2fbacc675005f78b685dbc334') in 0.059751 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/models/Sci Fi Modular Pack/Materials/Box3.mat
-  artifactKey: Guid(db6a37a1ce8f742aebcff4c72f94b067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Sci Fi Modular Pack/Materials/Box3.mat using Guid(db6a37a1ce8f742aebcff4c72f94b067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1f55799485337dee7976eb55838429') in 0.074792 seconds 
+  Time since last request: 0.001655 seconds.
+  path: Assets/models/F3_Corvette/Meshes/Materials
+  artifactKey: Guid(947ffb201ece7bc4cb809f3c05f619d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/F3_Corvette/Meshes/Materials using Guid(947ffb201ece7bc4cb809f3c05f619d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9e696fbd96dc0d788ab7c80783448e') in 0.002969 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001137 seconds.
-  path: Assets/models/F3_Corvette/Meshes/Materials/F3_Yellow.mat
-  artifactKey: Guid(defbdb8d47c401641be7b7c013675558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/F3_Corvette/Meshes/Materials/F3_Yellow.mat using Guid(defbdb8d47c401641be7b7c013675558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26efc18912f054f437675a8f4d53f15') in 0.078832 seconds 
+  Time since last request: 0.000461 seconds.
+  path: Assets/models/F3_Corvette
+  artifactKey: Guid(3982942b6064b40b4a4e242d82697196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/F3_Corvette using Guid(3982942b6064b40b4a4e242d82697196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d5987e1b93c60c1fdd81d157fe082ab') in 0.006037 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/models/Sci Fi Modular Pack/Materials/Bar.mat
-  artifactKey: Guid(269637ade25ef4a8c82adec0362f70cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Sci Fi Modular Pack/Materials/Bar.mat using Guid(269637ade25ef4a8c82adec0362f70cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ade019f2729fe2a6dc7d15009024f0b') in 0.080273 seconds 
+  Time since last request: 0.000529 seconds.
+  path: Assets/models/F3_Corvette/Prefabs/F3_Yellow Variant.prefab
+  artifactKey: Guid(4a44e7ddd5d26154cb1e23c0c3a2addb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/F3_Corvette/Prefabs/F3_Yellow Variant.prefab using Guid(4a44e7ddd5d26154cb1e23c0c3a2addb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade80e546e11c3f556168a9cd20f27e6') in 0.104217 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001056 seconds.
-  path: Assets/models/Sci Fi Modular Pack/Materials/Floor5.mat
-  artifactKey: Guid(8a33980753f504f7da530fcbb60108bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Sci Fi Modular Pack/Materials/Floor5.mat using Guid(8a33980753f504f7da530fcbb60108bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c165088adefe250af8b6d7c27d10192a') in 0.091330 seconds 
+  Time since last request: 40.369234 seconds.
+  path: Assets/models/Cobble Games
+  artifactKey: Guid(eef0ba40a4350494d8f34b03d9f59849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Cobble Games using Guid(eef0ba40a4350494d8f34b03d9f59849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f22fef9732cf06fa80a22fc1b482f5') in 0.001840 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.426269 seconds.
-  path: Assets/models/Sci Fi Modular Pack/Materials/Door.mat
-  artifactKey: Guid(9c1f216d20d0143c495f8be440d54d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Sci Fi Modular Pack/Materials/Door.mat using Guid(9c1f216d20d0143c495f8be440d54d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ecfb61b98f7d762d554663dc6616f1e') in 0.065589 seconds 
+  Time since last request: 0.830923 seconds.
+  path: Assets/models/Cobble Games/Spaceship
+  artifactKey: Guid(f63b62005a6f0a74aa3f3ed395c11181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Cobble Games/Spaceship using Guid(f63b62005a6f0a74aa3f3ed395c11181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24bc88c696cb4e0d40876c16a492d954') in 0.002483 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000459 seconds.
-  path: Assets/models/Sci Fi Modular Pack/Materials/DoorGlass.mat
-  artifactKey: Guid(f7d13ec7f3ea54bff9b8ca871ba9da45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Sci Fi Modular Pack/Materials/DoorGlass.mat using Guid(f7d13ec7f3ea54bff9b8ca871ba9da45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649be55b57012bab1d2bc8d4611f7e95') in 0.885389 seconds 
+  Time since last request: 0.105094 seconds.
+  path: Assets/models/Cobble Games/Spaceship/hdr.png
+  artifactKey: Guid(486947056826d634ea8563ea4137ec44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Cobble Games/Spaceship/hdr.png using Guid(486947056826d634ea8563ea4137ec44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b922f64eb6728235c2830529f7cd4d') in 1.450696 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000559 seconds.
-  path: Assets/models/Sci Fi Modular Pack/Materials/DoorFrame.mat
-  artifactKey: Guid(1c4616794813041a590a4b84a6f49e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Sci Fi Modular Pack/Materials/DoorFrame.mat using Guid(1c4616794813041a590a4b84a6f49e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dfe76403cc70628a066b425c8532c1a') in 0.070212 seconds 
+  Time since last request: 2.146554 seconds.
+  path: Assets/models/Cobble Games/Spaceship/Materials
+  artifactKey: Guid(a93c47eb1725044459fde9adc6b3db0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Cobble Games/Spaceship/Materials using Guid(a93c47eb1725044459fde9adc6b3db0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3328027baf4d0c41077c391803f24f') in 0.002033 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002159 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.68 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  5.482 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1158 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.5 MB.
-System memory in use after: 162.6 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1692.
-Total: 4.978234 ms (FindLiveObjects: 0.296750 ms CreateObjectMapping: 0.116637 ms MarkObjects: 4.516933 ms  DeleteObjects: 0.044897 ms)
-
+Received Import Request.
+  Time since last request: 0.094360 seconds.
+  path: Assets/models/Cobble Games/Spaceship/Materials/module1.mat
+  artifactKey: Guid(0a7d2ab2ee178ea4584694d33c298c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Cobble Games/Spaceship/Materials/module1.mat using Guid(0a7d2ab2ee178ea4584694d33c298c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41468826c30ec54eb66d527efdbcfb5f') in 0.316875 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000993 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.028 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1158 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.8 MB.
-System memory in use after: 162.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1695.
-Total: 2.938909 ms (FindLiveObjects: 0.210414 ms CreateObjectMapping: 0.072655 ms MarkObjects: 2.627368 ms  DeleteObjects: 0.024310 ms)
-
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/models/Cobble Games/Spaceship/Materials/module6.mat
+  artifactKey: Guid(5ea3cf6b979ff1f4d806064ef4e4342c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Cobble Games/Spaceship/Materials/module6.mat using Guid(5ea3cf6b979ff1f4d806064ef4e4342c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296df859506fd456de9c97b4f46432ba') in 0.082071 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001318 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.171 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1158 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.1 MB.
-System memory in use after: 163.1 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1698.
-Total: 3.181746 ms (FindLiveObjects: 0.323084 ms CreateObjectMapping: 0.067274 ms MarkObjects: 2.765559 ms  DeleteObjects: 0.023385 ms)
-
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/models/Cobble Games/Spaceship/Materials/module11.mat
+  artifactKey: Guid(6e81cd3e78d65cb40b3822cabfc0cd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Cobble Games/Spaceship/Materials/module11.mat using Guid(6e81cd3e78d65cb40b3822cabfc0cd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c36faf31d1bfa423032bb530c9ebc3') in 0.075984 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000714 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.845 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1158 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.3 MB.
-System memory in use after: 163.4 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1701.
-Total: 2.787878 ms (FindLiveObjects: 0.217357 ms CreateObjectMapping: 0.127930 ms MarkObjects: 2.416955 ms  DeleteObjects: 0.023693 ms)
-
+Received Import Request.
+  Time since last request: 0.005763 seconds.
+  path: Assets/models/Cobble Games/Spaceship/Materials/module9.mat
+  artifactKey: Guid(1c91f87980e93974da6f8c0ca59564ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Cobble Games/Spaceship/Materials/module9.mat using Guid(1c91f87980e93974da6f8c0ca59564ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115116b6388f5dd3828b254d9c9e36a5') in 0.058463 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001767 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.783 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1158 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.6 MB.
-System memory in use after: 163.7 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1704.
-Total: 2.563343 ms (FindLiveObjects: 0.245472 ms CreateObjectMapping: 0.061984 ms MarkObjects: 2.233764 ms  DeleteObjects: 0.020784 ms)
-
+Received Import Request.
+  Time since last request: 0.002765 seconds.
+  path: Assets/models/Cobble Games/Spaceship/Materials/module10.mat
+  artifactKey: Guid(0614ab8573e560745a936fe776154541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Cobble Games/Spaceship/Materials/module10.mat using Guid(0614ab8573e560745a936fe776154541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c7f6cebdc65bd8798aa8a3b0184e89') in 0.073422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/models/Cobble Games/Spaceship/Materials/MOdule8MetallicSmoothness.mat
+  artifactKey: Guid(96b2ce608c1f94b4cafe7c367c5cccae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Cobble Games/Spaceship/Materials/MOdule8MetallicSmoothness.mat using Guid(96b2ce608c1f94b4cafe7c367c5cccae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972e970a3b22f475a70c5a09e7d53ab4') in 0.046860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/models/Cobble Games/Spaceship/Materials/module4.mat
+  artifactKey: Guid(a3ec720022fc7b64789dc11e9a9e939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Cobble Games/Spaceship/Materials/module4.mat using Guid(a3ec720022fc7b64789dc11e9a9e939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3efcfeee92980defec63fd8a4de821') in 0.080878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/models/Cobble Games/Spaceship/Materials/module3.mat
+  artifactKey: Guid(5c36f1de9f82b5044aa3ccc9d9805138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Cobble Games/Spaceship/Materials/module3.mat using Guid(5c36f1de9f82b5044aa3ccc9d9805138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc0ae51e17bc5e4879932094253ff74') in 0.080554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000887 seconds.
+  path: Assets/models/Cobble Games/Spaceship/Materials/module15.mat
+  artifactKey: Guid(bdbf79c3df8cf8a41b8a237b72966015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Cobble Games/Spaceship/Materials/module15.mat using Guid(bdbf79c3df8cf8a41b8a237b72966015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb0b648f4f66f77d44125685832fc34') in 0.076195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/models/Cobble Games/Spaceship/Materials/module8.mat
+  artifactKey: Guid(e4c41fcbb055f8d40ba349613b285c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Cobble Games/Spaceship/Materials/module8.mat using Guid(e4c41fcbb055f8d40ba349613b285c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaae2c3d8c498788eac4a4c3d0251f08') in 0.058519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000591 seconds.
+  path: Assets/models/Cobble Games/Spaceship/Materials/module13.mat
+  artifactKey: Guid(ef3dc6ff5d4f9024ea3526f9b160ee94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Cobble Games/Spaceship/Materials/module13.mat using Guid(ef3dc6ff5d4f9024ea3526f9b160ee94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3af492dd47abb9b07aa1067152b611b') in 0.069933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/models/Cobble Games/Spaceship/Materials/module14.mat
+  artifactKey: Guid(08511fbb88b56474ba9abb76edfc4c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Cobble Games/Spaceship/Materials/module14.mat using Guid(08511fbb88b56474ba9abb76edfc4c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87eec936e65b1b64d27243b9573c43e1') in 0.062159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004717 seconds.
+  path: Assets/models/Cobble Games/Spaceship/Materials/module7.mat
+  artifactKey: Guid(cab268af1e2c6514aac45e66df101616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Cobble Games/Spaceship/Materials/module7.mat using Guid(cab268af1e2c6514aac45e66df101616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d16c3f0cef912727677ce651308cea6') in 0.079115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/models/Cobble Games/Spaceship/Materials/module12.mat
+  artifactKey: Guid(08d8a3b9674d306449191ecde31ecbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Cobble Games/Spaceship/Materials/module12.mat using Guid(08d8a3b9674d306449191ecde31ecbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e447cb900537c3e9fafa436f3bfdb308') in 0.055258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004381 seconds.
+  path: Assets/models/Cobble Games/Spaceship/Materials/module5.mat
+  artifactKey: Guid(2fa6c58f3c0a2de408bb4dee60cd375a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Cobble Games/Spaceship/Materials/module5.mat using Guid(2fa6c58f3c0a2de408bb4dee60cd375a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826cc4dfe498e373b5d85ce49b68bab8') in 0.062300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.767956 seconds.
+  path: Assets/models/Cobble Games/Spaceship/Meshes
+  artifactKey: Guid(bc85e799eb1cf88488f3a31c8c7f0523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Cobble Games/Spaceship/Meshes using Guid(bc85e799eb1cf88488f3a31c8c7f0523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf25e4fb3390bf12fc0361addabad26') in 0.002327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.142408 seconds.
+  path: Assets/models/Cobble Games/Spaceship/Meshes/Spaceship.fbx
+  artifactKey: Guid(b566ce7283e47f741b0fa467b5b72884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Cobble Games/Spaceship/Meshes/Spaceship.fbx using Guid(b566ce7283e47f741b0fa467b5b72884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33b02901317b762ef0bd3431706119a') in 1.220292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 108.775454 seconds.
+  path: Assets/models/Sci Fi Modular Pack
+  artifactKey: Guid(4f42c8a237bad4e8f816b66150e08082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Sci Fi Modular Pack using Guid(4f42c8a237bad4e8f816b66150e08082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a3d52b6ee1e96b207c3c2adbde2009') in 0.002804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.276876 seconds.
+  path: Assets/models/space-rocks
+  artifactKey: Guid(145da1537fa024a71a9902be2fa8e063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/space-rocks using Guid(145da1537fa024a71a9902be2fa8e063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c410c6a6cfe9555a3575b5b14eae2294') in 0.002657 seconds 

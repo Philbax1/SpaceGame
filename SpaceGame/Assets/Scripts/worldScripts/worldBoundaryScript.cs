@@ -7,7 +7,7 @@ public class worldBoundaryScript : MonoBehaviour
 {
     private Transform player;
     private float dist;
-    private float worldBounds = 20000f;
+    private float worldBounds = 200000f;
 
     public GameObject worldBoundCentre;
 

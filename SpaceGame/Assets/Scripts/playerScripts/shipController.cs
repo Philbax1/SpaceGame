@@ -58,15 +58,19 @@ public class shipController : MonoBehaviour
         // attack
         if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("Pressed primary button.");
+            //Debug.Log("Pressed primary button.");
             baseAttackNoise.Play();
         }
 
         if (Input.GetMouseButtonDown(1))
-            Debug.Log("Pressed secondary button.");
+        {
+            //Debug.Log("Pressed secondary button.");
+        }
 
         if (Input.GetMouseButtonDown(2))
-            Debug.Log("Pressed middle click.");
+        {
+            //Debug.Log("Pressed middle click.");
+        }
 
     }
 }

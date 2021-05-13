@@ -6,7 +6,7 @@ public class aesteroidFieldGenerator : MonoBehaviour
 {
     public GameObject aesteroidToSpread;
 
-    private int numAesteroidsSpawn = 2000;
+    private int numAesteroidsSpawn = 5000;
     private float aesteroidXSpread = 100000;
     private float aesteroidYSpread = 100000;
     private float aesteroidZSpread = 100000;

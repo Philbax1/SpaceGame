@@ -7,9 +7,9 @@ public class enemyGenerator : MonoBehaviour
     public GameObject enemiesToSpread;
 
     private int numEnemiesSpawn = 10;
-    private float enemyXSpread = 10000;
-    private float enemyYSpread = 10000;
-    private float enemyZSpread = 10000;
+    private float enemyXSpread = 30000;
+    private float enemyYSpread = 30000;
+    private float enemyZSpread = 30000;
 
     // Start is called before the first frame update
     void Start()

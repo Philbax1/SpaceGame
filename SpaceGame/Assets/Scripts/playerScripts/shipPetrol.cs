@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class shipPetrol : MonoBehaviour
 {
-    public int maxPetrol = 100;
+    public int maxEnergy = 100;
     public int currentPetrol;
 
     public petrolBar petrolBar;
@@ -12,8 +12,8 @@ public class shipPetrol : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        currentPetrol = maxPetrol;
-        petrolBar.SetMaxPetrol(maxPetrol);
+        currentPetrol = maxEnergy;
+        petrolBar.SetMaxEnergy(maxEnergy);
     }
 
     // Update is called once per frame
@@ -21,7 +21,7 @@ public class shipPetrol : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.X))
         {
-            Debug.Log(maxPetrol + currentPetrol);
+            Debug.Log(maxEnergy + currentPetrol);
             drainPetrol(20);
         }
     }
@@ -30,7 +30,7 @@ public class shipPetrol : MonoBehaviour
     {
         currentPetrol -= petrolDrain;
 
-        petrolBar.SetPetrol(currentPetrol);
+        petrolBar.SetEnergy(currentPetrol);
     }
 }
 
