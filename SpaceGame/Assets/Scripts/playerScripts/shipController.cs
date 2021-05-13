@@ -15,18 +15,11 @@ public class shipController : MonoBehaviour
     private float rollInput;
     public float rollSpeed = 10f, rollAccelleration = 3.5f;
 
-    // Attack
-    public AudioSource baseAttackNoise;
-
-
 
     void Start()
     {
         screenCentre.x = Screen.width * .5f;
         screenCentre.y = Screen.height * .5f;
-
-        // Attack
-        baseAttackNoise = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -54,24 +47,6 @@ public class shipController : MonoBehaviour
         // boost
         if (Input.GetKeyDown(KeyCode.LeftShift)) forewardSpeed = boostSpeed;
         if (Input.GetKeyUp(KeyCode.LeftShift)) forewardSpeed = 800f;
-
-        // attack
-        if (Input.GetMouseButtonDown(0))
-        {
-            //Debug.Log("Pressed primary button.");
-            baseAttackNoise.Play();
-        }
-
-        if (Input.GetMouseButtonDown(1))
-        {
-            //Debug.Log("Pressed secondary button.");
-        }
-
-        if (Input.GetMouseButtonDown(2))
-        {
-            //Debug.Log("Pressed middle click.");
-        }
-
     }
 }
 
