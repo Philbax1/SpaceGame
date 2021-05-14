@@ -4,7 +4,7 @@ using System;
 
 public class enemyTarget : MonoBehaviour
 {
-    private float health = 0f;
+    private float health = 100f;
 
     public ParticleSystem destroyEffect;
     public AudioSource destroyNoise;
@@ -16,15 +16,14 @@ public class enemyTarget : MonoBehaviour
 
         if (health <= 0f)
         {
+            destroyNoise.Play();
+            destroyEffect.Play(); //plays muzzle animation
             Die();
         }
     }
 
     void Die()
     {
-        destroyNoise.Play();
-        destroyEffect.Play(); //plays muzzle animation
-
         //pauseForDestroy();
         Destroy(gameObject);
     }

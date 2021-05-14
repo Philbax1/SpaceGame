@@ -24,11 +24,17 @@ public class gunScript : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))// && Time.time >= nextTimeToFire          //Insert in IF statement           //Code for full auto
         {
             //nextTimeToFire = Time.time + 1f / fireRate;           //Code for full auto
-            Shoot();
+            primaryShoot();
+        }
+
+        if (Input.GetButtonDown("Fire2"))// && Time.time >= nextTimeToFire          //Insert in IF statement           //Code for full auto
+        {
+            //nextTimeToFire = Time.time + 1f / fireRate;           //Code for full auto
+            secondaryShoot();
         }
     }
 
-    void Shoot()
+    void primaryShoot()
     {
         baseAttackNoise.Play();
         muzzle.Play(); //plays muzzle animation
@@ -55,5 +61,10 @@ public class gunScript : MonoBehaviour
             GameObject impactGO = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
             Destroy(impactGO, 2f);
         }
+    }
+
+    void secondaryShoot()
+    {
+        Debug.Log("secondary attack working");
     }
 }
