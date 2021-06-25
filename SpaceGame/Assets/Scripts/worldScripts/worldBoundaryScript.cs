@@ -2,55 +2,82 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class worldBoundaryScript : MonoBehaviour
 {
     private Transform player;
     private float dist;
-    private float worldBounds = 200000f;
+    private float worldBounds = 50000f;
 
     public GameObject worldBoundCentre;
 
-    //ui
-    [SerializeField] private GameObject worldBoundsWarningText;  // UI TEXT
-    [SerializeField] private Text text;
+    public GameObject playerShip;
 
-    // Start is called before the first frame update
+    //timer
+    float currentTime = 0;
+    float startingTime = 10f;
+
+    [SerializeField] TextMeshProUGUI countdownTextNumber;
+
+    [SerializeField] private GameObject worldBoundsWarningText;  // UI TEXT
+    [SerializeField] private TextMeshProUGUI text;
+
+    [SerializeField] private GameObject deathTextGroup;  // UI TEXT
+    [SerializeField] private TextMeshProUGUI deathText;
+
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
         worldBoundsWarningText.SetActive(false);    //Hide gravity warning
+
+        currentTime = startingTime;
     }
 
-
-
-    // Update is called once per frame
     void Update()
     {
         dist = Vector3.Distance(worldBoundCentre.transform.position, transform.position);
 
-
-        if (dist >= worldBounds)
+        if (currentTime > 0)
         {
-            triggerWarning();
+            if (dist >= worldBounds)
+            {
+                triggerWarning();
+            }
+            else
+            {
+                currentTime = startingTime; // reset timer when back in battlefield
+                worldBoundsWarningText.SetActive(false);
+            }
         }
-        if (dist < worldBounds)
+        else
         {
-            worldBoundsWarningText.SetActive(false);
+            killPlayer();
         }
-
-        /* if (dist <= maxDistance) triggerWarning();
-        else Debug.Log(dist);
-        */
     }
 
     private void triggerWarning()
     {
-        Debug.Log("Player is leaving battleField");
+        //Debug.Log("Player is leaving battleField");
         //worldBoundsWarningText.SetActive(true);    //Show gravity warning
         //transform.position = Vector3.MoveTowards(transform.position, moonSurface.transform.position, gravSpeed * Time.deltaTime);
 
-        text.text = "You are entering Deep Space";
+        currentTime -= 1 * Time.deltaTime;
+        countdownTextNumber.text = currentTime.ToString("0");
+        //text.text = "You are entering Deep Space";
+
         worldBoundsWarningText.SetActive(true);
+    }
+
+    public void killPlayer()
+    {
+        worldBoundsWarningText.SetActive(false);
+        deathTextGroup.SetActive(true);
+
+        playerShip.SetActive(false);
+        GetComponent<shipController>().enabled = false;
+
+        //Debug.Log("You have died");
     }
 }

@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class healthBar : MonoBehaviour
 {
 
     public Slider slider;
-    public Text text;
+    //public Text text;
+    public TextMeshProUGUI text;
 
 
     public void SetMaxHealth(int maxHealth)

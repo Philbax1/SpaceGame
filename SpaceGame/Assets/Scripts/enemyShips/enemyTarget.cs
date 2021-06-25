@@ -6,32 +6,37 @@ public class enemyTarget : MonoBehaviour
 {
     private float health = 100f;
 
-    public ParticleSystem destroyEffect;
-    public AudioSource destroyNoise;
+    public GameObject impactEffect;
+    public GameObject deathEffect;
 
-
-    public void takeDamge(float amount)
+    public void takeDamge(float damage)
     {
-        health -= amount;
+        health -= damage;
 
         if (health <= 0f)
         {
-            destroyNoise.Play();
-            destroyEffect.Play(); //plays muzzle animation
             Die();
+        }
+        else
+        {
+            GameObject impactGO = Instantiate(impactEffect, transform.position, Quaternion.LookRotation(transform.position));
         }
     }
 
     void Die()
     {
-        //pauseForDestroy();
+        //Debug.Log(gameObject);
+        GameObject impactGO = Instantiate(deathEffect, transform.position, Quaternion.LookRotation(transform.position));
+        //impactGO.Play();
+        Destroy(impactGO, 2f);
+
         Destroy(gameObject);
     }
 
-    /* IEnumerable pauseForDestroy()
+    /*IEnumerable pauseForDestroy()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(3);
     }*/
-
-
 }
+
+//https://www.youtube.com/watch?v=THnivyG0Mvo&t=567s

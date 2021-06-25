@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
     [SerializeField] private GameObject pauseMenuUI;
     [SerializeField] private bool isPaused;
+
 
     private void Update()
     {
@@ -38,6 +40,11 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(false);
 
         isPaused = false;
+    }
+
+    public void backToMainMenu()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 
     public void exitGame()

@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class shipPetrol : MonoBehaviour
 {
-    public int maxEnergy = 100;
-    public int currentPetrol;
+    public float maxEnergy = 100.00f;
+    public static float currentPetrol;
 
     public petrolBar petrolBar;
+
+    float regularPetrolDrain = 0.0001f;
+    float boostPetrolDrain = 0.01f;
+
 
     // Start is called before the first frame update
     void Start()
@@ -19,14 +23,12 @@ public class shipPetrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.X))
-        {
-            Debug.Log(maxEnergy + currentPetrol);
-            drainPetrol(20);
-        }
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.Q) || Input.GetKey(KeyCode.E)) drainPetrol(regularPetrolDrain);
+        if (Input.GetKey(KeyCode.LeftShift)) drainPetrol(boostPetrolDrain);
+
     }
 
-    void drainPetrol(int petrolDrain)
+    void drainPetrol(float petrolDrain)
     {
         currentPetrol -= petrolDrain;
 

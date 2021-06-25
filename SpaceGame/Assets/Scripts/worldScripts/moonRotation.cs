@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class moonRotation : MonoBehaviour
 {
-    private float rotateSpeed = 2;
+    private float rotateSpeed = 5;
     // Start is called before the first frame update
     void Start()
     {

@@ -336,6 +336,7 @@
 "Assets/Scripts/enemyShips/enemyGenerator.cs"
 "Assets/Scripts/enemyShips/enemyTarget.cs"
 "Assets/Scripts/enemyShips/enemy_TrackingScript.cs"
+"Assets/Scripts/playerScripts/aesteroidCollision.cs"
 "Assets/Scripts/playerScripts/alertSystem.cs"
 "Assets/Scripts/playerScripts/gunScript.cs"
 "Assets/Scripts/playerScripts/moonGrav.cs"
@@ -344,11 +345,18 @@
 "Assets/Scripts/playerScripts/shipHealth.cs"
 "Assets/Scripts/playerScripts/shipPetrol.cs"
 "Assets/Scripts/ui/healthBar.cs"
+"Assets/Scripts/ui/mainMenu.cs"
 "Assets/Scripts/ui/petrolBar.cs"
 "Assets/Scripts/worldScripts/aesteroidFieldGenerator.cs"
-"Assets/Scripts/worldScripts/asteroidCollision.cs"
 "Assets/Scripts/worldScripts/moonRotation.cs"
 "Assets/Scripts/worldScripts/worldBoundaryScript.cs"
+"Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/CannonBehavior.cs"
+"Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/CreateSinShapedLineStrip.cs"
+"Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/ShotBehavior.cs"
+"Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/VolumetricMultiLineBehavior.cs"
+"Assets/VolumetricLines/Scripts/VolumetricLineBehavior.cs"
+"Assets/VolumetricLines/Scripts/VolumetricLineStripBehavior.cs"
+"Assets/VolumetricLines/Scripts/VolumetricLineVertexData.cs"
 -langversion:8.0
 
 /deterministic

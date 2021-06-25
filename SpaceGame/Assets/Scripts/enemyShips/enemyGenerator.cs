@@ -6,7 +6,7 @@ public class enemyGenerator : MonoBehaviour
 {
     public GameObject enemiesToSpread;
 
-    private int numEnemiesSpawn = 10;
+    public int numEnemiesSpawn = 10;
     private float enemyXSpread = 30000;
     private float enemyYSpread = 30000;
     private float enemyZSpread = 30000;
@@ -16,21 +16,16 @@ public class enemyGenerator : MonoBehaviour
     {
         for (int i = 0; i < numEnemiesSpawn; i++)
         {
-            createAesteroidField();
+            createEnemyField();
         }
     }
 
-    void createAesteroidField()
+    void createEnemyField()
     {
         Vector3 randPosition = new Vector3(Random.Range(-enemyXSpread, enemyXSpread), Random.Range(-enemyYSpread, enemyYSpread), Random.Range(-enemyZSpread, enemyZSpread)) + transform.position;
         GameObject aesteroidClone = Instantiate(enemiesToSpread, randPosition, Quaternion.identity);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }
 
 //https://www.youtube.com/watch?v=tyS7WKf_dtk

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class shipController : MonoBehaviour
 {
-    private float forewardSpeed = 800f, strafeSpeed = 600f, boostSpeed = 1400f;
+    private float forewardSpeed = 800f, strafeSpeed = 600f, boostSpeed = 2000f;
     private float activeForwardSpeed, activeStrafeSpeed;
     private float forwardAccleration = 5f, strafeAccleration = 2f;
 
@@ -15,15 +15,25 @@ public class shipController : MonoBehaviour
     private float rollInput;
     public float rollSpeed = 10f, rollAccelleration = 3.5f;
 
+    private static float currentEnergyLevel;
+
+    public GameObject boostFlames;
+    //public AudioSource baseAttackNoise2;
+
 
     void Start()
     {
         screenCentre.x = Screen.width * .5f;
         screenCentre.y = Screen.height * .5f;
+        boostFlames.SetActive(false);
+
     }
 
     void Update()
     {
+        currentEnergyLevel = shipPetrol.currentPetrol;
+        //Debug.Log(currentEnergyLevel.ToString());
+
         //Mouse
         lookInput.x = Input.mousePosition.x;
         lookInput.y = Input.mousePosition.y;
@@ -38,15 +48,26 @@ public class shipController : MonoBehaviour
         transform.Rotate(-mouseDistance.y * lookRateSpeed * Time.deltaTime, mouseDistance.x * lookRateSpeed * Time.deltaTime, rollInput * rollSpeed * Time.deltaTime, Space.Self);
 
 
-        //wasd keyboard
-        activeForwardSpeed = Mathf.Lerp(activeForwardSpeed, Input.GetAxisRaw("Vertical") * forewardSpeed, forwardAccleration * Time.deltaTime);
-        activeStrafeSpeed = Mathf.Lerp(activeStrafeSpeed, Input.GetAxisRaw("Horizontal") * strafeSpeed, strafeAccleration * Time.deltaTime);
+        if (currentEnergyLevel >= 0) // kills engines when energy runs out
+        {
+            //wasd keyboard
+            activeForwardSpeed = Mathf.Lerp(activeForwardSpeed, Input.GetAxisRaw("Vertical") * forewardSpeed, forwardAccleration * Time.deltaTime);
+            activeStrafeSpeed = Mathf.Lerp(activeStrafeSpeed, Input.GetAxisRaw("Horizontal") * strafeSpeed, strafeAccleration * Time.deltaTime);
 
-        transform.position += (transform.forward * activeForwardSpeed * Time.deltaTime) + (transform.right * activeStrafeSpeed * Time.deltaTime);
+            transform.position += (transform.forward * activeForwardSpeed * Time.deltaTime) + (transform.right * activeStrafeSpeed * Time.deltaTime);
 
-        // boost
-        if (Input.GetKeyDown(KeyCode.LeftShift)) forewardSpeed = boostSpeed;
-        if (Input.GetKeyUp(KeyCode.LeftShift)) forewardSpeed = 800f;
+            // boost
+            if (Input.GetKeyDown(KeyCode.LeftShift))
+            {
+                boostFlames.SetActive(true);
+                forewardSpeed = boostSpeed;
+            }
+            if (Input.GetKeyUp(KeyCode.LeftShift))
+            {
+                boostFlames.SetActive(false);
+                forewardSpeed = 800f;
+            }
+        }
     }
 }
 

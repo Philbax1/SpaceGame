@@ -2,15 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 
 public class petrolBar : MonoBehaviour
 {
     public Slider slider;
-    public Text text;
+    public TextMeshProUGUI text;
 
 
-    public void SetMaxEnergy(int maxEnergy)
+    public void SetMaxEnergy(float maxEnergy)
     {
         slider.maxValue = maxEnergy;
         slider.value = maxEnergy;
@@ -18,7 +19,7 @@ public class petrolBar : MonoBehaviour
         text.text = maxEnergy.ToString();
     }
 
-    public void SetEnergy(int energy)
+    public void SetEnergy(float energy)
     {
         slider.value = energy;
 
